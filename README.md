@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-This project focuses on **Operational Transformation and Supply Chain Optimization** for the **Manufacturing** domain. Leveraging advanced data analytics, the goal is to identify inefficiencies, reduce operational costs, and improve supply chain performance across procurement, inventory, logistics, and vendor management.
+A global manufacturing company is facing rising logistics costs, supplier inefficiencies, inventory imbalance, and declining profitability. The objective is to identify operational bottlenecks and recommend data-driven optimization strategies.
 
 ---
 
