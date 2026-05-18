@@ -270,6 +270,14 @@ jupyter notebook
 - 📌 Insight 4: Vendor consolidation opportunities
 
 ---
+Future Improvements
+Predictive demand forecasting using machine learning
+Supplier performance scoring model
+Transportation cost forecasting
+Inventory optimization simulation
+Real-time KPI dashboard integration
+
+---
 
 ## 👤 Author
 
