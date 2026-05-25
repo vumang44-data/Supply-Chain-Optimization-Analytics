@@ -98,7 +98,7 @@ The Tableau dashboard was developed to provide executive-level visibility into o
 
 ---
 
-Dataset Information
+## 📂 Dataset Information
 
 The dataset contains operational and supply chain records including:
 
@@ -245,14 +245,12 @@ Balance transportation cost against operational efficiency.
 
 | KPI | Description |
 |---|---|
-| KPI                | Description                   |
-| ------------------ | ----------------------------- |
-| Total Revenue      | Total revenue generated       |
-| Total Profit       | Overall estimated profit      |
-| Avg Shipping Cost  | Average transportation cost   |
-| Avg Defect Rate    | Product quality indicator     |
+| Total Revenue | Total revenue generated |
+| Total Profit | Overall estimated profit |
+| Avg Shipping Cost | Average transportation cost |
+| Avg Defect Rate | Product quality indicator |
 | Inventory Turnover | Inventory movement efficiency |
-| Route Efficiency   | Logistics performance metric  |
+| Route Efficiency | Logistics performance metric |
 
 ---
 
@@ -291,13 +289,14 @@ jupyter notebook
 - 📌 Insight 4: Vendor consolidation opportunities
 
 ---
+
 ## 🚀 Future Improvements
 
-Predictive demand forecasting using machine learning
-Supplier performance scoring model
-Transportation cost forecasting
-Inventory optimization simulation
-Real-time KPI dashboard integration
+- Predictive demand forecasting using machine learning
+- Supplier performance scoring model
+- Transportation cost forecasting
+- Inventory optimization simulation
+- Real-time KPI dashboard integration
 
 ---
 
@@ -306,7 +305,6 @@ Real-time KPI dashboard integration
 **Umang Verma**  
 Data Analyst  
 
-
 ---
 
 ## 📄 License
@@ -314,6 +312,5 @@ Data Analyst
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
-
 *⭐ If you find this project useful, please consider giving it a star!*
 
