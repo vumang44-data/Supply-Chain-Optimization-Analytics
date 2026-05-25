@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
 ![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791?style=for-the-badge&logo=postgresql)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
@@ -13,6 +12,12 @@
 A global manufacturing company is facing rising logistics costs, supplier inefficiencies, inventory imbalance, and declining operational profitability. The objective of this project is to identify operational bottlenecks, evaluate supply chain performance, and recommend data-driven optimization strategies using SQL, Python, and Tableau.
 
 This project simulates a real-world consulting analytics engagement focused on operational transformation and supply chain optimization.
+
+---
+
+## 📊 Dashboard Preview
+
+![Dashboard](tableau/dashboard.png)
 
 ---
 
@@ -32,36 +37,26 @@ The goal of this project is to analyze operational data and identify opportuniti
 
 ## 🗂️ Project Structure
 
-```
+```bash
 Supply-Chain-Optimization-Analytics/
 │
-├── 📁 data/
-│   ├── raw/                    # Raw datasets (procurement, inventory, logistics)
-│   ├── processed/              # Cleaned and transformed data
-│   └── external/               # External reference data
+├── data/
+│   ├── supply_chain_data.csv
+│   └── cleaned_supply_chain_data.csv
 │
-├── 📁 notebooks/
-│   ├── 01_EDA.ipynb            # Exploratory Data Analysis
-│   ├── 02_Data_Cleaning.ipynb  # Data Preprocessing & Transformation
-│   ├── 03_Procurement.ipynb    # Procurement Cycle Analysis
-│   ├── 04_Inventory.ipynb      # Inventory Optimization
-│   ├── 05_Forecasting.ipynb    # Demand Forecasting Models
-│   └── 06_Visualization.ipynb  # Charts & Dashboards
+├── notebooks/
+│   └── SupplyChain_EDA_Analysis.ipynb
 │
-├── 📁 scripts/
-│   ├── data_pipeline.py        # ETL Pipeline Scripts
-│   ├── kpi_metrics.py          # KPI Calculation Functions
-│   └── forecasting_model.py    # ML Model Scripts
+├── sql/
+│   └── Supply_chain_analysis.sql
 │
-├── 📁 dashboards/
-│   └── supply_chain_dashboard.pbix  # Power BI Dashboard
+├── tableau/
+│   ├── dashboard.png
+│   └── Supply_Chain_Dashboard.twbx
 │
-├── 📁 reports/
-│   └── insights_summary.pdf    # Key Findings & Recommendations
+├── screenshots/
 │
-├── README.md
-├── requirements.txt
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -122,8 +117,8 @@ Removed inconsistencies
 Checked missing values
 Corrected data formats
 Created derived metrics for operational analysis
-2. SQL Business Analysis
 
+2. SQL Business Analysis
 Performed advanced SQL analysis to evaluate operational performance and identify business optimization opportunities.
 
 Key Business Analyses & Insights
@@ -219,6 +214,25 @@ Strategic Recommendation
 Optimize Route A logistics planning and transportation execution.
 Continue utilizing Route C for high-priority operational flows.
 Balance transportation cost against operational efficiency.
+
+## 📈 Tableau Executive Dashboard
+
+The Tableau dashboard was developed to provide executive-level visibility into operational performance across the supply chain network.
+
+### Dashboard Features
+- KPI Monitoring
+- Profitability Analysis
+- Supplier Risk Evaluation
+- Transportation Cost Analysis
+- Inventory Health Tracking
+- Route Performance Monitoring
+- Advanced Operational Scatter Plot Analysis
+
+### Key Dashboard KPIs
+- Total Revenue
+- Total Profit
+- Avg Shipping Cost
+- Avg Defect Rate
 
 ---
 
