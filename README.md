@@ -17,6 +17,8 @@ This project simulates a real-world consulting analytics engagement focused on o
 
 ## 📊 Dashboard Preview
 
+The dashboard provides executive-level visibility into profitability, supplier risk, logistics efficiency, inventory health, and operational bottlenecks.
+
 ![Dashboard](tableau/dashboard.png)
 
 ---
@@ -74,6 +76,28 @@ Supply-Chain-Optimization-Analytics/
 | **Environment** | Anaconda, virtualenv |
 
 ---
+
+## 📈 Tableau Executive Dashboard
+
+The Tableau dashboard was developed to provide executive-level visibility into operational performance across the supply chain network.
+
+### Dashboard Features
+- KPI Monitoring
+- Profitability Analysis
+- Supplier Risk Evaluation
+- Transportation Cost Analysis
+- Inventory Health Tracking
+- Route Performance Monitoring
+- Advanced Operational Scatter Plot Analysis
+
+### Key Dashboard KPIs
+- Total Revenue
+- Total Profit
+- Avg Shipping Cost
+- Avg Defect Rate
+
+---
+
 Dataset Information
 
 The dataset contains operational and supply chain records including:
@@ -215,37 +239,20 @@ Optimize Route A logistics planning and transportation execution.
 Continue utilizing Route C for high-priority operational flows.
 Balance transportation cost against operational efficiency.
 
-## 📈 Tableau Executive Dashboard
-
-The Tableau dashboard was developed to provide executive-level visibility into operational performance across the supply chain network.
-
-### Dashboard Features
-- KPI Monitoring
-- Profitability Analysis
-- Supplier Risk Evaluation
-- Transportation Cost Analysis
-- Inventory Health Tracking
-- Route Performance Monitoring
-- Advanced Operational Scatter Plot Analysis
-
-### Key Dashboard KPIs
-- Total Revenue
-- Total Profit
-- Avg Shipping Cost
-- Avg Defect Rate
-
 ---
 
 ## 📈 Key KPIs Tracked
 
 | KPI | Description |
 |---|---|
-| **OTD (On-Time Delivery)** | % of orders delivered on time |
-| **Inventory Turnover Ratio** | Efficiency of inventory usage |
-| **Procurement Cycle Time** | Time from PO to delivery |
-| **Cost Savings (%)** | Reduction in supply chain costs |
-| **Forecast Accuracy** | MAPE / RMSE of demand forecast |
-| **Supplier Lead Time** | Average supplier response time |
+| KPI                | Description                   |
+| ------------------ | ----------------------------- |
+| Total Revenue      | Total revenue generated       |
+| Total Profit       | Overall estimated profit      |
+| Avg Shipping Cost  | Average transportation cost   |
+| Avg Defect Rate    | Product quality indicator     |
+| Inventory Turnover | Inventory movement efficiency |
+| Route Efficiency   | Logistics performance metric  |
 
 ---
 
@@ -276,7 +283,7 @@ jupyter notebook
 
 ---
 
-## 💡 Key Insights *(To be updated as analysis progresses)*
+## 💡 Key Business Insights
 
 - 📌 Insight 1: Identified top bottlenecks in procurement cycle
 - 📌 Insight 2: Inventory optimization opportunities across categories
@@ -284,7 +291,8 @@ jupyter notebook
 - 📌 Insight 4: Vendor consolidation opportunities
 
 ---
-Future Improvements
+## 🚀 Future Improvements
+
 Predictive demand forecasting using machine learning
 Supplier performance scoring model
 Transportation cost forecasting
