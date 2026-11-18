@@ -152,6 +152,7 @@ SELECT
 FROM supply_chain
 GROUP BY transportation_modes
 ORDER BY avg_shipping_cost DESC;
+
 -- Air show highest avg_shipping_cost
 
 SELECT
@@ -168,8 +169,8 @@ SELECT
 FROM supply_chain
 GROUP BY transportation_modes
 ORDER BY avg_efficiency DESC;
--- Sea has highest avg_efficiency
 
+-- Sea has highest avg_efficiency
 -- Transportation Analysis Insight:
 -- Air transportation generated the highest shipping costs
 -- without corresponding improvements in delivery speed
@@ -235,8 +236,9 @@ SELECT
 FROM supply_chain
 GROUP BY routes
 ORDER BY avg_efficiency DESC;
--- Route C has highest avg_efficiency
 
+
+-- Route C has highest avg_efficiency
 -- Route Performance Analysis Insight:
 -- Route A demonstrated the highest shipping time,
 -- indicating potential logistics bottlenecks and slower
